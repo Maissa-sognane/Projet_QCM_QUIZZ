@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('/projet_jeu/Images//img-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.logo img{
+    height: 75px;
+}
+.nav{
+    background-color: #026c7b;
+    height: 80px;
+}
+.titre{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: -4%;
+}
+
+/*Media Query*/
+@media screen and (min-width: 667px) and  (max-width: 1024px){
+    body{
+        background-size: 190%;
+    }
+    .titre{
+        margin-top: -6%;
+    }
+}
+
+@media screen and (min-width: 320px) and  (max-width: 667px){
+    body{
+        background-size: 280%;
+    }
+
+    .titre{
+        margin-top: -11%;
+        font-size: 1.5em;
+    }
+}

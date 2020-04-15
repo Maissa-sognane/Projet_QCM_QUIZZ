@@ -1,0 +1,77 @@
+.form_image{
+    display: flex;
+}
+.inscrire{
+    margin-left: 7%;
+}
+.formulaire{
+    margin-left: 7%;
+}
+.inpt{
+    height: 30px;
+    width: 170%;
+    border-radius: 7px 7px 7px 7px;
+}
+.avatar{
+    margin-top: 5%;
+}
+
+.photoavatar{
+    margin-left: 32%;
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    border: 4px solid slategray;
+    margin-top: 14%;
+}
+.photoavatar img{
+    border-radius:50%;
+    width: 164px;
+    height: 164px;
+}
+
+.choix_fichier{
+    float: right;
+    margin-right: -70%;
+    border-color: #2acaff;
+    height: 30px;
+}
+.creer_compte{
+    margin-top: 10%;
+    width: 80%;
+    height: 30px;
+    color: white;
+    margin-left: 35%;
+}
+hr{
+    width: 190%;
+    margin-left: 0
+}
+@media screen and (min-width: 320px) and  (max-width: 667px){
+    h3{
+        font-size: 10px;
+    }
+    span{
+        font-size: 10px;
+    }
+    hr{
+        width: 100%;
+    }
+    label{
+        font-size: 10px;
+    }
+    .inpt{
+        width: 90%;
+    }
+    .photoavatar{
+        width: 100px;
+        height: 100px;
+        margin-left: 32%;
+        position: fixed;
+        margin-top: -50%;
+    }
+    .creer_compte{
+        margin-top: 24%;
+        margin-bottom: 8%;
+    }
+}

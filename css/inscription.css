@@ -1,0 +1,107 @@
+.form_image{
+    display: flex;
+    background: white;
+    border-radius: 9px;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 14%;
+    height: 600px
+}
+.inscrire{
+    margin-left: 25%;
+    width: 135%;
+}
+.photo_avatar{
+    margin-left: 50%;
+    margin-top: 15%;
+}
+.formulaire{
+    margin-left: 25%;
+}
+.inpt{
+    height: 40px;
+    width: 290%;
+    border-radius: 7px 7px 7px 7px;
+}
+.avatar{
+    margin-top: 9%;
+}
+.choix_fichier{
+    float: right;
+    margin-right: -180%;
+    color: white;
+    height: 30px;
+}
+.creer_compte{
+    margin-top: 10%;
+    width:90%;
+    height: 30px;
+    background-color: #2acaff;
+    border-color: #2acaff;
+    margin-left: 74%;
+
+}
+hr{
+    width: 190%;
+    margin-left: 0;
+}
+.avatar{
+    margin-top: 5%;
+}
+
+.photoavatar{
+    margin-left: 45%;
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    border: 4px solid slategray;
+    margin-top: 14%;
+}
+.photoavatar img{
+    border-radius:50%;
+    width: 164px;
+    height: 164px;
+}
+@media screen and (min-width: 667px) and  (max-width: 1024px){
+.inpt{
+    width: 190%;
+}
+.photo_avatar{
+    margin-left: 41%;
+    margin-top: 22%;
+}
+.choix_fichier{
+    margin-right: -151%;
+}
+.creer_compte{
+    margin-left: 37%;
+}
+}
+@media screen and (min-width: 320px) and  (max-width: 667px){
+h1{
+    font-size: 10px;
+}
+    span{font-size: 10px
+    }
+    .inpt{
+        width: 110%;
+    }
+    hr{
+        width: 100%;
+    }
+    .photo_avatar{
+        margin-left: 19%;
+        margin-top: 33%;
+    }
+    .choix_fichier{
+    margin-right: -74%;
+}
+    .form_image{
+        width: 92%;
+        margin-left: 5%;
+    }
+    .creer_compte{
+        width: 50%;
+        margin-left: 15%;
+    }
+}

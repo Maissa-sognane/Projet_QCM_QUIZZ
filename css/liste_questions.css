@@ -1,0 +1,110 @@
+.titre_entete{
+    display: flex;
+    justify-content: space-between;
+}
+.champ_nbre_questions{
+    width: 10%;
+    height: 30px;
+    margin-top: 2%;
+}
+.titre_question{
+    margin-left: 39%;
+}
+.button_ok{
+    margin-right: 21%;
+    height: 34px;
+    margin-top: 2%;
+    background-color: #183e9c;
+    border-color: #183e9c;
+    color: white;
+}
+.affiche_reponse{
+    border: 1px solid;
+    border-color: rgba(18,19,18,0.35);
+    width: 90%;
+    margin-left: 4%;
+    border-radius: 8px;
+}
+.afficher_question{
+    font-size: 24px;
+    color: #7a7e7a;
+}
+.affich_reponse{
+    font-size: 18px;
+    font-family: "Arial Black";
+}
+.button_suivant{
+    margin-left: 64%;
+    height: 40px;
+    margin-top: 2%;
+}
+.boutton_precendent{
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 2%;
+}
+
+@media screen and (min-width: 667px) and  (max-width: 1024px){
+    .boutton_precendent{
+        margin-top: 3%;
+        height: 40px;
+        margin-left: 16px;
+        width: 83px;
+    }
+    .button_suivant{
+        margin-left: 52%;
+        height: 40px;
+        width: 83px;
+    }
+    .afficher_question{
+        font-size: 15px;
+    }
+    .affich_reponse{
+        font-size: 10px;
+    }
+    .titre_question{
+        font-size: 12px;
+    }
+    .champ_nbre_questions{
+        height: 24px;
+        margin-top: 1%;
+    }
+    .button_ok{
+        height: 30px;
+        margin-top: 1%;
+    }
+}
+@media screen and (min-width: 320px) and  (max-width: 667px){
+
+    .boutton_precendent{
+        margin-top: 3%;
+        height: 40px;
+        margin-left: 16px;
+        width: 83px;
+            font-size: 10px;
+    }
+    .button_suivant{
+        margin-left: 20%;
+        height: 40px;
+        width: 83px;
+        font-size: 10px;
+    }
+    .afficher_question{
+        font-size: 15px;
+    }
+    .affich_reponse{
+        font-size: 10px;
+    }
+    .titre_question{
+        font-size: 12px;
+        margin-left: 20%;
+    }
+    .champ_nbre_questions{
+        height: 24px;
+        margin-top: 1%;
+    }
+    .button_ok{
+        height: 30px;
+        margin-top: 1%;
+    }
+}
